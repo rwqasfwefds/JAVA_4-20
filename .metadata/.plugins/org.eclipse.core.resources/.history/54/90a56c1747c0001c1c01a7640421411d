@@ -1,0 +1,24 @@
+package Ex9_4;
+
+class Card {
+	String kind;
+	int number;
+	
+	Card(){
+		this("SPADE", 1);
+	}
+	
+	Card(String kine, int number){
+		this.kind = kind;
+		this.number = number;
+	}
+}
+
+public class Ex9_4 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

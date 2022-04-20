@@ -1,0 +1,20 @@
+package Ex9_13;
+
+import static java.lang.Math.*;
+import static java.lang.System.*;
+
+public class Ex9_13 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double val = 90.7552;
+		System.out.println("round(" + val + ") = " + round(val));
+		
+		val *= 100;
+		System.out.println("round(" + val + ") / 100 = " + round(val) / 100);
+		System.out.println("round(" + val + ") / 100.0 = " + round(val) / 100.0);
+		System.out.println();
+		System.out.printf("ceil(%3.1f) = $3.1f%n", 1.1, ceil(1.1));
+	}
+
+}
